@@ -1,0 +1,6 @@
+### VS Code ###
+.vscode/
+
+# Docker
+.docker/dbdata
+.docker/dbdata2

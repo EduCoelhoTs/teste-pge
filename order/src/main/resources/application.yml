@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: order
+
+  kafka:
+    bootstrap-servers: http://localhost:9092
+    producer:
+      bootstrap-servers: http://localhost:9092
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/order
+    username: postgres
+    password: docker
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    # show-sql: true
